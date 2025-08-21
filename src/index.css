@@ -1,0 +1,28 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+  .chat_users::-webkit-scrollbar {
+    width: 5px !important;
+
+  }
+
+  .chat_users::-webkit-scrollbar-corner {
+    border-radius: 20px;
+  }
+
+  .chat_users::-webkit-scrollbar-thumb {
+    background-color: rgba(0, 0, 0, 0);
+
+    border-radius: 8px;
+    /* Change the thumb color */
+  }
+
+  .chat_users:hover::-webkit-scrollbar-thumb {
+    background-color: rgba(0, 0, 0, 0.3);
+  }
+
+  .chat_users::-webkit-scrollbar-track {
+    background-color: transparent;
+    /* Change the track color */
+  }
